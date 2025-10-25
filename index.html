@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>April | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a2e0e6cf3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="particle-bg"></div>
+
+  <header>
+    <nav>
+      <h1 class="logo">April Portfolio</h1>
+      <div class="menu-toggle" id="menu-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2 id="intro-text"></h2>
+    <p class="fade-in">Developer & Freelancer.<br><br>
+      I create clean, functional, and beautiful web systems for clients.
+    </p>
+    <a href="#projects" class="btn fade-in">View My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m April — a freelance developer passionate about building user-friendly systems that help clients
+      achieve their goals. I work with Java, Python, HTML, CSS, JavaScript, and MySQL to create clean, reliable, and
+      efficient solutions. I’m continuously learning and improving, so every project gets my full effort and attention!
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <div class="carousel" data-project="inventory">
+          <img src="images/login.png" class="active" alt="Login Panel" />
+          <img src="images/manager-dashboard.png" alt="Manager Dashboard" />
+          <img src="images/pos-overview.png" alt="POS Overview" />
+          <img src="images/pos-dashboard.png" alt="POS Dashboard" />
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+        <h3>Inventory System</h3>
+        <p>A Java GUI inventory management system for printing services.</p>
+      </div>
+      <div class="project-card">
+        <div class="carousel" data-project="flappybee">
+          <img src="images/flappybee-menu.png" class="active" alt="Flappy Bee Menu" />
+          <img src="images/flappybee-game.png" alt="Flappy Bee Gameplay" />
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+        <h3>Flappy Bee</h3>
+        <p>A simple Java game inspired by Flappy Bird.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="Java"><span>Java</span></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg" alt="HTML"><span>HTML</span></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg" alt="CSS"><span>CSS</span></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" alt="JavaScript"><span>JavaScript</span></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-plain-wordmark.svg" alt="Python"><span>Python</span></div>
+      <div class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL"><span>MySQL</span></div>
+    </div>
+  </section>
+
+  <section id="contacts">
+    <h2>Contacts</h2>
+
+ <p class="connect-text">Interested in working together? Let’s connect!</p>
+
+<div class="social-links">
+  <a href="https://www.facebook.com/aprilmaecapilo" target="_blank" class="social-btn facebook">
+    <i class="fab fa-facebook-f"></i> Facebook
+  </a>
+  <a href="https://www.instagram.com/aprilmaecap?igsh=OTE1Mm5oMmhuMjF2" target="_blank" class="social-btn instagram">
+    <i class="fab fa-instagram"></i> Instagram
+  </a>
+  <a href="https://www.tiktok.com/@aprilmaecape?_t=ZS-90qC4fKhTea&_r=1" target="_blank" class="social-btn tiktok">
+    <i class="fab fa-tiktok"></i> TikTok
+  </a>
+  <a href="https://github.com/April-Mae11" target="_blank" class="social-btn github">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+</div>
+
+
+  <footer>
+    <p>© 2025 April Portfolio | All rights reserved.</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <button class="lightbox-prev">&#10094;</button>
+    <img class="lightbox-img" src="" alt="Preview" />
+    <button class="lightbox-next">&#10095;</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
